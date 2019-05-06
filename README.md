@@ -1,3 +1,5 @@
+To run the simulator, simply run "make" in the command terminal.
+
 # M/M/1 Queue Simulator
 The global variables needed for the simulator include the size of the temporary arrays that will be used to load the queues (defaultSize), the three event queue arrays (observerQueue, arrivalQueue, departureQueue), and the counters that will be needed for the performance metrics calculations (observationCounter, arrivalCounter, departureCounter, idleCounter, numberOfPacketsInQueue). The queues used for this simulator are priority queues, where priority is given to events with earlier arrival times. 
  
